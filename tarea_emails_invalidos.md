@@ -11,6 +11,8 @@ create sequence superhero_id_superhero_seq start 1 increment 1;
 alter table superhero alter column superhero_id set default nextval('superhero_id_superhero_seq')
 
 ```
+
+## Script para insertar datos
 ```sql
 insert into superhero 
 (nombre, email)
@@ -34,7 +36,7 @@ values('Wanda Maximoff', 'wanda.maximoff@avengers.org'),
 ('Rocket', 'shhhhhhhh@darknet.ru')
 ```
 
-<Hola de nuevo>
+## Script del query para regresar emails inválidos
 
 ```sql
 
