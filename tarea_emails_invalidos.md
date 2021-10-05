@@ -1,4 +1,7 @@
-''' sql
+#Tarea emails inválidos
+
+##Script para creacióon de tabla
+ '''ql
 create table SuperHero(
 superhero_id numeric(6,0) constraint pk_superhero primary key,
 nombre varchar(250) not null,
@@ -8,7 +11,7 @@ create sequence superhero_id_superhero_seq start 1 increment 1;
 alter table superhero alter column superhero_id set default nextval('superhero_id_superhero_seq')
 
 '''
-<Hola :3>
+>Hola :3
 ''' sql
 insert into superhero 
 (nombre, email)
@@ -30,7 +33,7 @@ values('Wanda Maximoff', 'wanda.maximoff@avengers.org'),
 ('Nebula', 'idonthaveelektras@complex.thanos'),
 ('Gamora', 'thefiercestwomaninthegalaxy@thanos.'),
 ('Rocket', 'shhhhhhhh@darknet.ru')
-,,,
+´´´
 
 <Hola de nuevo>
 
