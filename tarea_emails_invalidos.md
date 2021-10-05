@@ -11,7 +11,7 @@ create sequence superhero_id_superhero_seq start 1 increment 1;
 alter table superhero alter column superhero_id set default nextval('superhero_id_superhero_seq')
 
 '''
->Hola :3<
+>Hola :3>
 ''' sql
 insert into superhero 
 (nombre, email)
