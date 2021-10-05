@@ -1,4 +1,4 @@
-'''sql
+''' sql
 create table SuperHero(
 superhero_id numeric(6,0) constraint pk_superhero primary key,
 nombre varchar(250) not null,
@@ -9,7 +9,7 @@ alter table superhero alter column superhero_id set default nextval('superhero_i
 
 '''
 <Hola :3>
-'''sql
+''' sql
 insert into superhero 
 (nombre, email)
 values('Wanda Maximoff', 'wanda.maximoff@avengers.org'),
@@ -34,7 +34,7 @@ values('Wanda Maximoff', 'wanda.maximoff@avengers.org'),
 
 <Hola de nuevo>
 
-'''sql
+''' sql
 
 select email as email_invalido
 from superhero s 
