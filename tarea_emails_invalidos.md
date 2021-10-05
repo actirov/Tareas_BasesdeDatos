@@ -1,6 +1,6 @@
-#Tarea emails inválidos
+# Tarea emails inválidos
 
-##Script para creacióon de tabla
+## Script para creacióon de tabla
 ```sql
 create table SuperHero(
 superhero_id numeric(6,0) constraint pk_superhero primary key,
