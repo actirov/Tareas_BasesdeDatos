@@ -1,7 +1,7 @@
-#Tarea Agrupaciones3
+# Tarea Agrupaciones3
 
-##1.-Cómo obtenemos todos los nombres y correos de nuestros clientes canadienses para una campaña?
-###Voy a suponer que una persona es canadiense si y solo si vive en Canada por que no veo un atributo de nacionalidad en ningún lado
+## 1.-Cómo obtenemos todos los nombres y correos de nuestros clientes canadienses para una campaña?
+### Voy a suponer que una persona es canadiense si y solo si vive en Canada por que no veo un atributo de nacionalidad en ningún lado
 
 
 select c.first_name, c.last_name, c.email
